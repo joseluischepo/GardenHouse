@@ -305,8 +305,8 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
 
 
                                         
-                                            let urlhumam = 'http://localhost/proyecto_inge//models/apirest_php/articulos.php'
-                                            //let urlhumam =  'http://cripiot.ml/GardenHouse/proyecto_inge//models/apirest_php/articulos.php'
+                                            //let urlhumam = 'http://localhost/proyecto_inge//models/apirest_php/articulos.php'
+                                            let urlhumam =  'http://cripiot.ml/GardenHouse/proyecto_inge//models/apirest_php/articulos.php'
                                             fetch(urlhumam)
                                                 .then( response => response.json() )
                                                 .then( datos => mostrarhuma(datos) )
